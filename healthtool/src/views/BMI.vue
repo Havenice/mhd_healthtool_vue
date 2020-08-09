@@ -44,7 +44,7 @@
             <b-numberinput v-model="heightInch" max="11"></b-numberinput>
           </b-field>
           <b-field :label="$t('bmi.label_height')+' ('+$t('bmi.centimeter_unit')+')'" v-else-if="chkBoxKg">
-            <b-numberinput v-model="heightCentimeter" max="12"></b-numberinput>
+            <b-numberinput v-model="heightCentimeter" max="99"></b-numberinput>
           </b-field>
         </div>
       </div>
