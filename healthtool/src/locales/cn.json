@@ -1,0 +1,49 @@
+{
+    "home":{
+        "bmi_title": "BMI 身体重量指数计算机",
+        "intestinal_title": "肠道环境年龄检查",
+        "pasi_title": "PASI 牛皮癣积严重度计算机",
+        "bmi_desc": "确定人的整体健康风险指标",
+        "intestinal_desc": "确定结肠的老化状态",
+        "pasi_desc": "衡量牛皮癣（牛皮癣面积和严重性指数）的严重程度分析"
+    },
+    "navigation":{
+        "menu_title_home": "首页",
+        "menu_title_about": "关于Healthtool",
+        "menu_title_bmi": "BMI 检查",
+        "menu_title_intestinal": "肠胃年龄检查",
+        "languages":{
+            "title": "语言",
+            "title_en": "英语",
+            "title_cn": "中文",
+            "title_jp": "日本话"
+        },
+        "estore_title":"网上商店 Estore",
+        "homepage_title":"MHD 主页"
+    },
+    "bmi":{
+        "title":"欢迎使用BMI计算器",
+        "choose_kg_desc": "选择使用公斤/米<sup>2</sup>计算",
+        "label_race": "种族",
+        "title_caucasian": "高加索",
+        "title_asian": "亚洲",
+        "label_weight": "体重",
+        "pound_unit": "磅",
+        "kilogram_unit": "公斤",
+        "label_height": "身高",
+        "feet_unit": "尺",
+        "meter_unit": "米",
+        "inch_unit": "寸",
+        "centimeter_unit": "公分",
+        "label_classification":"阶段",
+        "lvl_obese": "肥胖",
+        "lvl_overweight": "体重过重",
+        "lvl_healthy": "健康",
+        "lvl_underweight": "体重不足",
+        "legend_result":"计算结果是基于实时的。"
+    },
+    "intestinal":{
+        "intestinal_title": "肠胃年龄检查",
+        "intestinal_desc": "好消息！ 现在，您可以使用Yoshimi Benno博士的方法在一分钟内检查肠道环境的年龄，该方法是一种快速且无创的方法，可用来检查结肠的衰老状态。 例如，您可能在25岁，但是在您的等效年龄50岁，实际年龄或更小时评估结肠状态。 Yoshimi Benno博士从事肠道细菌学和细菌分类学研究已有40多年的历史，并且是这些领域的领先研究人员。"
+    }
+}

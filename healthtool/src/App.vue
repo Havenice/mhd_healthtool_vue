@@ -9,51 +9,49 @@
   <div class="container" id="content">
     <router-view/>
     </div>
+    <HealthtoolFooter/>
   </div>
 </template>
 <script>
 import HealthtoolNavbar from './components/HealthtoolNavbar'
+import HealthtoolFooter from './components/HealthtoolFooter'
+import { mapState } from 'vuex'
+
 export default {
-  components: { HealthtoolNavbar }
+  components: { HealthtoolNavbar, HealthtoolFooter },
+  computed: mapState(['locale']),
+  watch: {
+    locale () {
+      this.$router.replace({ params: { lang: this.locale } }).catch(() => {})
+    }
+  },
+  mounted () {
+    this.setDefaultLocale()
+  },
+  methods: {
+    async accept () {
+      this.showUpgradeUI = false
+      await this.$workbox.messageSW({ type: 'SKIP_WAITING' })
+    },
+    setDefaultLocale () {
+      // if (this.$route.params.lang !== 'en') {
+      this.$root.$i18n.locale = this.$route.params.lang
+      // }
+    }
+  }
 }
 </script>
 <style>
   body{
     background:#f2f2f2;
+    min-height: 600px;
+    font-family: 'Lexend Deca', sans-serif !important;
   }
   #content{
-    margin-top:2rem;
+    margin:2rem auto;
   }
 </style>
 <style lang="scss">
-@import "~bulma/sass/utilities/_all";
-
-// Set your colors
-$primary: #ff9800;
-$primary-invert: findColorInvert($primary);
-$twitter: #4099FF;
-$twitter-invert: findColorInvert($twitter);
-
-// Setup $colors to use as bulma classes (e.g. 'is-twitter')
-$colors: (
-    "white": ($white, $black),
-    "black": ($black, $white),
-    "light": ($light, $light-invert),
-    "dark": ($dark, $dark-invert),
-    "primary": ($primary, $primary-invert),
-    "info": ($info, $info-invert),
-    "success": ($success, $success-invert),
-    "warning": ($warning, $warning-invert),
-    "danger": ($danger, $danger-invert),
-    "twitter": ($twitter, $twitter-invert)
-);
-
-// Links
-$link: $primary;
-$link-invert: $primary-invert;
-$link-focus-border: $primary;
-
-// Import Bulma and Buefy styles
-@import "~bulma";
-@import "~buefy/src/scss/buefy";
+@import './assets/css/bulma.min.css';
+@import "./assets/scss/_variables.scss";
 </style>

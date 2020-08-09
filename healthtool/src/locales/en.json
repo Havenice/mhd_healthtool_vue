@@ -1,0 +1,49 @@
+{
+    "home":{
+        "bmi_title": "BMI Calculator",
+        "intestinal_title": "Intestinal Aging Check",
+        "pasi_title": "PASI Calculator",
+        "bmi_desc": "Determine person's overall health risk",
+        "intestinal_desc": "Determine aging status of your colon",
+        "pasi_desc": "Measure the severity and extent of psoriasis"
+    },
+    "navigation":{
+        "menu_title_home": "Home",
+        "menu_title_about": "About",
+        "menu_title_bmi": "BMI Check",
+        "menu_title_intestinal": "Intestinal Aging Check",
+        "languages":{
+            "title": "Language",
+            "title_en": "English",
+            "title_cn": "Chinese",
+            "title_jp": "Japanese"
+        },
+        "estore_title":"Estore",
+        "homepage_title":"Homepage"
+    },
+    "bmi":{
+        "title":"Welcome to the BMI Calculator",
+        "choose_kg_desc": "Choose to calculate using Kilogram/Metre<sup>2</sup>",
+        "label_race": "Race",
+        "title_caucasian": "Caucasian",
+        "title_asian": "Asian",
+        "label_weight": "Weight",
+        "pound_unit": "lbs",
+        "kilogram_unit": "kg",
+        "label_height": "Height",
+        "feet_unit": "ft",
+        "meter_unit": "meter",
+        "inch_unit": "inches",
+        "centimeter_unit": "centimeter",
+        "label_classification":"Classification",
+        "lvl_obese": "obese",
+        "lvl_overweight": "overweight",
+        "lvl_healthy": "healthy",
+        "lvl_underweight": "underweight",
+        "legend_result":"The calculation results are realtime-based."
+    },
+    "intestinal":{
+        "intestinal_title": "Intestinal Aging Check",
+        "intestinal_desc": "Good news! You can now check the age of your intestinal environment within a minute by using Dr. Yoshimi Benno’s method - a quick and non-invasive method to access the aging status of your colon. For example, you may be at the age of 25, but colon status is evaluated at your equivalent age of 50 years old, at actual age or younger. Dr. Yoshimi Benno has been working in the field of intestinal bacteriology and bacterial taxonomy for more than 40 years and a leading researcher in these areas"
+    }
+}
