@@ -1,7 +1,7 @@
 <template>
 <div class="">
-  <h1 class="title">{{$t('intestinal.intestinal_title')}}</h1>
-  <p class="subtitle">{{$t('intestinal.intestinal_desc')}}</p>
+  <h1 class="title has-text-primary">{{$t('intestinal.intestinal_title')}}</h1>
+  <p class="subtitle has-text-grey-dark">{{$t('intestinal.intestinal_desc')}}</p>
       <iframe :src="url" frameborder="0" width="100%" id="morinagaHTML" ref="iframeMori"></iframe>
        <recommended-product />
 </div>

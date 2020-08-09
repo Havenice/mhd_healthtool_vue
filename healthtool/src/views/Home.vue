@@ -13,7 +13,7 @@
               <div class="content">
                 <h1 class="title is-size-4 has-text-white">{{$t('home.bmi_title')}}</h1>
                 <p>{{$t('home.bmi_desc')}}</p>
-                <router-link to="/bmi-check"  class="button is-primary is-inverted is-outlined is-rounded">Goto Link</router-link>
+                <router-link :to="'/'+this.$store.state.locale+'/bmi-check'"  class="button is-primary is-inverted is-outlined is-rounded">Goto Link</router-link>
               </div>
             </div>
           </article>
@@ -31,7 +31,7 @@
               <div class="content">
                 <h1 class="title is-size-4 has-text-white">{{$t('home.intestinal_title')}}</h1>
                 <p>{{$t('home.intestinal_desc')}}</p>
-                <router-link to="/intestinal-age-check"  class="button is-primary is-inverted is-outlined is-rounded">Goto Link</router-link>
+                <router-link :to="'/'+this.$store.state.locale+'/intestinal-age-check'"  class="button is-primary is-inverted is-outlined is-rounded">Goto Link</router-link>
               </div>
             </div>
           </article>
@@ -51,7 +51,7 @@
               <div class="content">
                 <h1 class="title is-size-4">{{$t('home.pasi_title')}}</h1>
                 <p>{{$t('home.pasi_desc')}}</p>
-                <router-link to="/pasi-check"  class="button is-inverted has-background-danger-light is-outlined is-rounded">Goto Link</router-link>
+                <router-link :to="'/'+this.$store.state.locale+'/pasi-check'"  class="button is-inverted has-background-danger-light is-outlined is-rounded">Goto Link</router-link>
               </div>
             </div>
           </article>

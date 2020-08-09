@@ -107,6 +107,7 @@ export default {
   align-items: center;
   .button {
     border: none;
+    font-family: 'Lexend Deca';
   }
 }
 .country-icon {
