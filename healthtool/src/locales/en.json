@@ -45,5 +45,12 @@
     "intestinal":{
         "intestinal_title": "Intestinal Aging Check",
         "intestinal_desc": "Good news! You can now check the age of your intestinal environment within a minute by using Dr. Yoshimi Benno’s method - a quick and non-invasive method to access the aging status of your colon. For example, you may be at the age of 25, but colon status is evaluated at your equivalent age of 50 years old, at actual age or younger. Dr. Yoshimi Benno has been working in the field of intestinal bacteriology and bacterial taxonomy for more than 40 years and a leading researcher in these areas"
+    },
+    "products":{
+        "label_recommended": "Recommended Product",
+        "label_consumption": "Consumption",
+        "label_buynow": "Buy Now",
+        "sachet_unit": "Sachets",
+        "daily_unit": "Daily"
     }
 }

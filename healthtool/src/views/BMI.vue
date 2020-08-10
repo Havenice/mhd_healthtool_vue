@@ -73,7 +73,11 @@
         </div>
       </section>
     </div>
-        <recommended-product />
+        <recommended-product id="50" name="S-Perfect">
+          <template v-slot:desc>
+              <p>Sperfect is amazing</p>
+          </template>
+        </recommended-product>
   </div>
 </template>
 <script>

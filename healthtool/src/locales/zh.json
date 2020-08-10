@@ -45,5 +45,12 @@
     "intestinal":{
         "intestinal_title": "肠胃年龄检查",
         "intestinal_desc": "好消息！ 现在，您可以使用Yoshimi Benno博士的方法在一分钟内检查肠道环境的年龄，该方法是一种快速且无创的方法，可用来检查结肠的衰老状态。 例如，您可能在25岁，但是在您的等效年龄50岁，实际年龄或更小时评估结肠状态。 Yoshimi Benno博士从事肠道细菌学和细菌分类学研究已有40多年的历史，并且是这些领域的领先研究人员。"
+    },
+    "products":{
+        "label_recommended": "推荐产品",
+        "label_consumption": "用法",
+        "label_buynow": "立即购买",
+        "sachet_unit": "包",
+        "daily_unit": "每天"
     }
 }

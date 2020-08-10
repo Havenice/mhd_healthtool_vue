@@ -33,7 +33,7 @@
             <div class="media-content">
               <h3>
                 <span v-if="lang === 'en'">{{$t('navigation.languages.title_en')}}</span>
-                <span v-else-if="lang === 'cn'">{{$t('navigation.languages.title_cn')}}</span>
+                <span v-else-if="lang === 'zh'">{{$t('navigation.languages.title_cn')}}</span>
                 ({{lang}})
               </h3>
             </div>
