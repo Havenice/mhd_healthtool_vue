@@ -5,6 +5,7 @@
             <div class="column is-8">
                 <p>Copyright © 2020 MyHealthDriver.Com.</p>
                 <p>All rights reserved. EnerFlex is a registered trademark of MyHealthDriver.Com Sdn Bhd</p>
+                <p>Developed by Havenice Sdn. Bhd</p>
                 <div class="is-vcentered">
                     <img src="https://myhealthdriver.com/images/halal_cert.png" width="64" alt="">
 
@@ -20,3 +21,9 @@
         </div>
     </footer>
 </template>
+<style>
+footer img{
+    vertical-align: middle;
+    margin: .5rem .5rem 0 0;
+}
+</style>

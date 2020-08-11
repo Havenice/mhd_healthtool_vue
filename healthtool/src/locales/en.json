@@ -12,6 +12,7 @@
         "menu_title_about": "About",
         "menu_title_bmi": "BMI Check",
         "menu_title_intestinal": "Intestinal Aging Check",
+        "menu_title_pasi": "PASI Check",
         "languages":{
             "title": "Language",
             "title_en": "English",
@@ -47,10 +48,30 @@
         "intestinal_desc": "Good news! You can now check the age of your intestinal environment within a minute by using Dr. Yoshimi Benno’s method - a quick and non-invasive method to access the aging status of your colon. For example, you may be at the age of 25, but colon status is evaluated at your equivalent age of 50 years old, at actual age or younger. Dr. Yoshimi Benno has been working in the field of intestinal bacteriology and bacterial taxonomy for more than 40 years and a leading researcher in these areas"
     },
     "products":{
-        "label_recommended": "Recommended Product",
+        "label_recommended": "Recommended Product/s",
         "label_consumption": "Consumption",
         "label_buynow": "Buy Now",
         "sachet_unit": "Sachets",
         "daily_unit": "Daily"
+    },
+    "pasi":{
+        "label_part": "Part",
+        "label_head": "Head",
+        "label_upper_limbs": "Upper Limbs",
+        "label_trunk": "Trunk",
+        "label_legs": "Legs",
+        "label_pasi_score": "PASI Score",
+        "label_severity":"Severity",
+        "lvl_mild": "Mild",
+        "lvl_moderate": "Moderate",
+        "lvl_severe": "Severe",
+        "label_area": "Area",
+        "label_redness": "Erythema (Redness)",
+        "label_thickness":"Induration (Thickness)",
+        "label_scaling": "Desquamation (scaling)",
+        "label_total_area_involvement": "Total Area Involvement",
+        "label_btn_prev": "Prev Step",
+        "label_btn_next": "Next Step",
+        "pasi_desc": "A PASI score is a tool used to measure the severity and extent of psoriasis (Psoriasis Area and Severity Index). It takes a few minutes and experience to calculate it accurately."
     }
 }

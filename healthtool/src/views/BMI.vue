@@ -1,5 +1,5 @@
 <template>
-  <div class="bmi">
+  <div class="bmi px-2">
     <div class="box">
       <div class="columns">
         <div class="is-full column">
@@ -75,7 +75,7 @@
     </div>
         <recommended-product id="50" name="S-Perfect">
           <template v-slot:desc>
-              <p>Sperfect is amazing</p>
+              <p>I can add html element/tags flexibly in slot.</p>
           </template>
         </recommended-product>
   </div>

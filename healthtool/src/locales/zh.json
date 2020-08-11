@@ -10,8 +10,9 @@
     "navigation":{
         "menu_title_home": "首页",
         "menu_title_about": "关于Healthtool",
-        "menu_title_bmi": "BMI 检查",
+        "menu_title_bmi": "BMI 计算检查",
         "menu_title_intestinal": "肠胃年龄检查",
+        "menu_title_pasi": "PASI 计算检查",
         "languages":{
             "title": "语言",
             "title_en": "英语",
@@ -52,5 +53,25 @@
         "label_buynow": "立即购买",
         "sachet_unit": "包",
         "daily_unit": "每天"
+    },
+    "pasi":{
+        "label_part": "部分",
+        "label_head": "头部",
+        "label_upper_limbs": "上肢",
+        "label_trunk": "躯干",
+        "label_legs": "脚步",
+        "label_pasi_score": "PASI 分数",
+        "label_severity":"严重程度",
+        "lvl_mild": "轻度",
+        "lvl_moderate": "中等",
+        "lvl_severe": "严重",
+        "label_area": "面积",
+        "label_redness": "红斑",
+        "label_thickness":"硬结",
+        "label_scaling": "脱屑",
+        "label_total_area_involvement": "总面积受累",
+        "label_btn_prev": "前一步",
+        "label_btn_next": "下一步",
+        "pasi_desc":"PASI评分是衡量牛皮癣（牛皮癣面积和严重性指数）的严重程度分析工具。 它只需要几分钟的时间和经验来准确计算。"
     }
 }

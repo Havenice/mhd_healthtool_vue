@@ -1,5 +1,5 @@
 <template>
-  <div class="content">
+  <div class="content px-2">
     <div class="columns">
       <div class="column is-6">
         <div class="box has-text-white has-background-primary">

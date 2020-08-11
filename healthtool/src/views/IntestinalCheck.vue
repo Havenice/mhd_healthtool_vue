@@ -1,5 +1,5 @@
 <template>
-<div class="">
+<div class="px-2">
   <h1 class="title has-text-primary is-size-4">{{$t('intestinal.intestinal_title')}}</h1>
   <p class="subtitle has-text-grey-dark is-size-6">{{$t('intestinal.intestinal_desc')}}</p>
       <iframe :src="url" frameborder="0" width="100%" id="morinagaHTML" ref="iframeMori"></iframe>

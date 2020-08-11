@@ -4,6 +4,7 @@ import Home from '../views/Home.vue'
 // import About from '../views/About.vue'
 import BMI from '../views/BMI.vue'
 import IntestinalCheck from '../views/IntestinalCheck.vue'
+import PASICheck from '../views/PASICheck.vue'
 import { languages } from '@/plugins/i18n'
 import store from '@/store'
 
@@ -39,6 +40,11 @@ const routes = [
         path: 'intestinal-age-check',
         name: 'il8n | Intestinal',
         component: IntestinalCheck
+      },
+      {
+        path: 'pasi-check',
+        name: 'il8n | Pasi',
+        component: PASICheck
       }
     ]
   },

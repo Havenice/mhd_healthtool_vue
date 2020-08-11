@@ -9,12 +9,16 @@
       <b-navbar-item tag="router-link" :to="'/'+lang">{{$t('navigation.menu_title_home')}}</b-navbar-item>
       <b-navbar-item
         tag="router-link"
-        :to="'/'+lang+'/intestinal-age-check'"
-      >{{$t("navigation.menu_title_intestinal")}}</b-navbar-item>
+        :to="'/'+lang+'/pasi-check'"
+      >{{$t("navigation.menu_title_pasi")}}</b-navbar-item>
       <b-navbar-item
         tag="router-link"
         :to="'/'+lang+'/bmi-check'"
       >{{$t("navigation.menu_title_bmi")}}</b-navbar-item>
+      <b-navbar-item
+        tag="router-link"
+        :to="'/'+lang+'/intestinal-age-check'"
+      >{{$t("navigation.menu_title_intestinal")}}</b-navbar-item>
       <b-navbar-item tag="router-link" :to="'/'+lang+'/about'">{{$t("navigation.menu_title_about")}}</b-navbar-item>
       <b-dropdown v-model="lang" aria-role="list" id="languageSelect">
         <button class="button" type="button" slot="trigger">
