@@ -1,8 +1,8 @@
 <template>
   <b-navbar>
     <template slot="brand">
-      <b-navbar-item tag="router-link" :to="'/'+lang">
-        <img src="https://myhealthdriver.com/images/logo.png" alt="MHD Logo" />
+      <b-navbar-item tag="router-link" :to="'/'+lang" id="logo">
+        <img src="@/assets/mhd_ht_logo.png" alt="MHD Logo" />
       </b-navbar-item>
     </template>
     <template slot="start">
@@ -127,5 +127,8 @@ nav.navbar {
 }
 #estore {
   margin-left: 0.5rem;
+}
+#logo{
+  background-color:transparent;
 }
 </style>

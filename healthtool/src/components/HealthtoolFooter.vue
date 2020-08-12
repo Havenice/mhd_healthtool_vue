@@ -12,6 +12,7 @@
                     <img src="https://myhealthdriver.com/images/iso_9001_ukas.jpg" width="64" alt="">
 
                     <img src="https://myhealthdriver.com/images/iso_22000_ukas.jpg" width="64" alt="">
+                    <img src="https://myhealthdriver.com/images/logo.png" alt="MyHealthDriver">
                     </div>
             </div>
             <div class="column is-4">

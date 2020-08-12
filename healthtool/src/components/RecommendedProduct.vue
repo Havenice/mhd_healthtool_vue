@@ -1,8 +1,11 @@
 <template>
-  <div id="recommendedProduct" class="box" :class="{'sperfect-background': this.id == 50, 'original-background': this.id == 54, 'probiotic-background': this.id == 51}">
-    <div class="columns is-vcentered">
+  <div id="recommendedProduct" class="box" :class="{'sperfect-background': this.id == 50, 'original-background': this.id == 54, 'probiotic-background': this.id == 51,
+  'psoriasis-pack-background': this.id == 64}">
+    <div class="columns is-vcentered is-centered">
       <div class="column is-narrow">
-        <img src="https://via.placeholder.com/150x150" alt />
+        <img class="img-thumbnail" src="/img/products/enerflex_probiotic.png" alt="enerflex Probiotic" v-if="this.id == 51">
+        <img class="img-thumbnail" src="/img/products/enerflex_sperfect.png" alt="enerflex S-Perfect" v-else-if="this.id == 50">
+        <img class="img-thumbnail" src="/img/products/psoriasis_pack.png" alt="enerflex AFA, Complexion, Probiotic PSORIASIS Pack" v-else-if="this.id == 64">
       </div>
       <div class="column has-text-white">
         <h1 class="has-text-white is-size-6">{{$t('products.label_recommended')}}</h1>
@@ -33,6 +36,12 @@
 }
 .probiotic-background{
   background-color: $probiotic;
+}
+.img-thumbnail{
+max-width: 10rem;
+}
+.psoriasis-pack-background{
+  background-color: #607d8b;
 }
 </style>
 <script>

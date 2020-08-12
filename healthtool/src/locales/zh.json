@@ -20,7 +20,8 @@
             "title_jp": "日本话"
         },
         "estore_title":"网上商店 Estore",
-        "homepage_title":"MHD 主页"
+        "homepage_title":"MHD 主页",
+        "label_click_expand": "点击展开"
     },
     "bmi":{
         "title":"欢迎使用BMI计算器",
@@ -72,6 +73,10 @@
         "label_total_area_involvement": "总面积受累",
         "label_btn_prev": "前一步",
         "label_btn_next": "下一步",
-        "pasi_desc":"PASI评分是衡量牛皮癣（牛皮癣面积和严重性指数）的严重程度分析工具。 它只需要几分钟的时间和经验来准确计算。"
+        "pasi_desc":"PASI评分是衡量牛皮癣（牛皮癣面积和严重性指数）的严重程度分析工具。 它只需要几分钟的时间和经验来准确计算。",
+        "pasi_table_desc": "解释",
+        "pasi_factors_table_reference": "红斑,硬结和脱屑参考图",
+        "pasi_score_table_reference": "PASI评分参考表",
+        "pasi_label_factors": "因素 / 分数"
     }
 }

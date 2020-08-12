@@ -20,7 +20,8 @@
             "title_jp": "Japanese"
         },
         "estore_title":"Estore",
-        "homepage_title":"Homepage"
+        "homepage_title":"Homepage",
+        "label_click_expand": "Click to expand"
     },
     "bmi":{
         "title":"Welcome to the BMI Calculator",
@@ -72,6 +73,10 @@
         "label_total_area_involvement": "Total Area Involvement",
         "label_btn_prev": "Prev Step",
         "label_btn_next": "Next Step",
-        "pasi_desc": "A PASI score is a tool used to measure the severity and extent of psoriasis (Psoriasis Area and Severity Index). It takes a few minutes and experience to calculate it accurately."
+        "pasi_desc": "A PASI score is a tool used to measure the severity and extent of psoriasis (Psoriasis Area and Severity Index). It takes a few minutes and experience to calculate it accurately.",
+        "pasi_table_desc": "Description",
+        "pasi_factors_table_reference": "Reference Table for Redness, Thickness &amp; Scaling",
+        "pasi_score_table_reference": "PASI Score Reference Table",
+        "pasi_label_factors": "Factors / Score"
     }
 }
