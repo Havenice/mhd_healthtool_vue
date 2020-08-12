@@ -9,7 +9,7 @@
       </div>
       <div class="column has-text-white">
         <h1 class="has-text-white is-size-6">{{$t('products.label_recommended')}}</h1>
-        <p class="title has-text-white is-size-4">EnerFlex®
+        <p class="title has-text-white is-size-4"><i>EnerFlex® </i>
          <slot name="product-title">{{product_name}}</slot>
         </p>
         <p class="subtitle has-text-light is-size-5">{{$t('products.label_consumption')}} : {{$t('products.daily_unit')}} 2 {{$t('products.sachet_unit')}} </p>
@@ -20,7 +20,9 @@
             :href="product_url"
             target="_blank"
             referrer="noopener noreferrer"
-          >{{$t('products.label_buynow')}}</a>
+          >{{$t('products.label_buynow')}} <b-icon
+                icon="cart"
+                size="is-small ml-2"></b-icon></a>
         </p>
       </div>
     </div>
