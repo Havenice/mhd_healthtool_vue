@@ -372,9 +372,9 @@
           </section>
       </section>
     </div>
-    <recommended-product id="64" name="Psoriasis Pack">
+    <recommended-product id="64" name="Psoriasis Pack" hide-consumption="true">
       <template v-slot:desc>
-        <p>Direction of use: Please refer further here</p>
+        <p class="subtitle has-text-light is-size-5">{{$t('products.label_consumption')}} : {{$t('products.label_direction_of_use_extra')}}</p>
       </template>
     </recommended-product>
   </div>
@@ -385,6 +385,21 @@ import PasiTable from '../components/PasiTable'
 import PasiScoringScale from '../components/PasiScoringScale'
 export default {
   components: { RecommendedProduct, PasiTable, PasiScoringScale },
+  metaInfo () {
+    return {
+      title: this.$t('home.pasi_title'),
+      meta: [{
+        vmid: 'description',
+        name: 'description',
+        content: this.$t('meta.meta_keywords_pasi')
+      },
+      {
+        vmid: 'keywords',
+        name: 'keywords',
+        content: this.$t('meta.meta_keywords_pasi')
+      }]
+    }
+  },
   data () {
     return {
       isTableOpen: false,

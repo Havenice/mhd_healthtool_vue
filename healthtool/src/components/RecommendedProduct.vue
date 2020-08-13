@@ -12,7 +12,7 @@
         <p class="title has-text-white is-size-4"><i>EnerFlex® </i>
          <slot name="product-title">{{product_name}}</slot>
         </p>
-        <p class="subtitle has-text-light is-size-5">{{$t('products.label_consumption')}} : {{$t('products.daily_unit')}} 2 {{$t('products.sachet_unit')}} </p>
+        <p v-if="!this.hideConsumption" class="subtitle has-text-light is-size-5">{{$t('products.label_consumption')}} : {{$t('products.daily_unit')}} 2 {{$t('products.sachet_unit')}} </p>
         <slot name="desc"></slot>
         <p>
           <a
@@ -48,7 +48,7 @@ max-width: 10rem;
 </style>
 <script>
 export default {
-  props: ['name', 'id'],
+  props: ['name', 'id', 'hideConsumption'],
   data () {
     return {
       product_id: this.id,

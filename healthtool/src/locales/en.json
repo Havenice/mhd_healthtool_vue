@@ -1,11 +1,22 @@
 {
+    "meta":{
+        "meta_keywords_home": "healthtool, psoriasis, pasi, bmi, intestinal aging, morinaga, MyHealthDriver, MHD",
+        "meta_keywords_about": "healthtool, psoriasis, about MHD, Kim Lin Keong, Havenice, MyHealthDriver, MHD",
+        "meta_keywords_pasi": "healthtool, psoriasis, PASI, score, calculator, redness, scaling, thickness, Erythema, Induration, Desquamation, MyHealthDriver, MHD",
+        "meta_keywords_bmi": "healthtool, obesity, BMI, score, calculator,MyHealthDriver, MHD",
+        "meta_keywords_intestinal": "healthtool, intestinal aging, colon, morinaga ,MyHealthDriver, MHD"
+    },
     "home":{
         "bmi_title": "BMI Calculator",
         "intestinal_title": "Intestinal Aging Check",
         "pasi_title": "PASI Calculator",
         "bmi_desc": "Determine person's overall health risk",
         "intestinal_desc": "Determine aging status of your colon",
-        "pasi_desc": "Measure the severity and extent of psoriasis"
+        "pasi_desc": "Measure the severity and extent of psoriasis",
+        "label_button_goto": "Proceed",
+        "label_button_external": "Open External Link",
+        "estore_title": "MHD Estore",
+        "estore_desc": "Visit more of our EnerFlex products available in MHD Estore"
     },
     "navigation":{
         "menu_title_home": "Home",
@@ -46,14 +57,18 @@
     },
     "intestinal":{
         "intestinal_title": "Intestinal Aging Check",
-        "intestinal_desc": "Good news! You can now check the age of your intestinal environment within a minute by using Dr. Yoshimi Benno’s method - a quick and non-invasive method to access the aging status of your colon. For example, you may be at the age of 25, but colon status is evaluated at your equivalent age of 50 years old, at actual age or younger. Dr. Yoshimi Benno has been working in the field of intestinal bacteriology and bacterial taxonomy for more than 40 years and a leading researcher in these areas"
+        "intestinal_desc": "Good news! You can now check the age of your intestinal environment within a minute by using Dr. Yoshimi Benno’s method - a quick and non-invasive method to access the aging status of your colon. For example, you may be at the age of 25, but colon status is evaluated at your equivalent age of 50 years old, at actual age or younger. Dr. Yoshimi Benno has been working in the field of intestinal bacteriology and bacterial taxonomy for more than 40 years and a leading researcher in these areas",
+        "label_not_supported_title":"Not supported in smartphone/non-PC version yet",
+        "label_not_supported_desc": "As the embedded site is not mobile-responsive, we highly access via PC with decent resolution sizes. Thank you for understanding.",
+        "label_source":"Source"
     },
     "products":{
         "label_recommended": "Recommended Product/s",
         "label_consumption": "Consumption",
         "label_buynow": "Buy Now",
         "sachet_unit": "Sachets",
-        "daily_unit": "Daily"
+        "daily_unit": "Daily",
+        "label_direction_of_use_extra": "Please refer further at link below"
     },
     "pasi":{
         "label_part": "Part",
@@ -75,8 +90,15 @@
         "label_btn_next": "Next Step",
         "pasi_desc": "A PASI score is a tool used to measure the severity and extent of psoriasis (Psoriasis Area and Severity Index). It takes a few minutes and experience to calculate it accurately.",
         "pasi_table_desc": "Description",
-        "pasi_factors_table_reference": "Reference Table for Redness, Thickness &amp; Scaling",
+        "pasi_factors_table_reference": "Reference Table for Redness, Thickness & Scaling",
         "pasi_score_table_reference": "PASI Score Reference Table",
         "pasi_label_factors": "Factors / Score"
+    },
+    "footer":{
+        "label_copyright": " Copyright ©",
+        "label_rights_reserved": " All Right Reserved",
+        "label_is_registered_trademark":"is a registered trademark of MyHealthDriver.Com Sdn Bhd.",
+        "label_developed_by": "This platform is developed by Havenice Sdn. Bhd.",
+        "label_disclaimer": "Disclaimer: The entire contents of this website are based upon opinions of the author, unless otherwise noted. The information on this website is not intended to replace a one-on-one relationship with a qualified health care professional and is not intended as medical advice."
     }
 }

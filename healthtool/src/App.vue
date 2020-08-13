@@ -16,6 +16,12 @@ import { mapState } from 'vuex'
 
 export default {
   components: { HealthtoolNavbar, HealthtoolFooter },
+  metaInfo: {
+    // if no subcomponents specify a metaInfo.title, this title will be used
+    title: 'Welcome 欢迎',
+    // all titles will be injected into this template
+    titleTemplate: '%s | MHD HealthTool'
+  },
   computed: mapState(['locale']),
   watch: {
     locale () {

@@ -5,10 +5,12 @@ import './registerServiceWorker'
 import router from './router'
 import store from './store'
 import i18n from './plugins/i18n'
+import VueMeta from 'vue-meta'
 
 // import 'buefy/dist/buefy.css'
 
 Vue.use(Buefy)
+Vue.use(VueMeta)
 Vue.config.productionTip = false
 
 new Vue({

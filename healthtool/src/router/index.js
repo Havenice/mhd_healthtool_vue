@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-// import About from '../views/About.vue'
+import About from '../views/About.vue'
 import BMI from '../views/BMI.vue'
 import IntestinalCheck from '../views/IntestinalCheck.vue'
 import PASICheck from '../views/PASICheck.vue'
@@ -30,6 +30,11 @@ const routes = [
         path: '',
         name: 'il8n | Home',
         component: Home
+      },
+      {
+        path: 'about',
+        name: 'il8n | About',
+        component: About
       },
       {
         path: 'bmi-check',

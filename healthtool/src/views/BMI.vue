@@ -74,9 +74,6 @@
       </section>
     </div>
         <recommended-product id="50" name="S-Perfect">
-          <template v-slot:desc>
-              <p>I can add html element/tags flexibly in slot.</p>
-          </template>
         </recommended-product>
   </div>
 </template>
@@ -84,6 +81,21 @@
 import RecommendedProduct from '../components/RecommendedProduct'
 export default {
   components: { RecommendedProduct },
+  metaInfo () {
+    return {
+      title: this.$t('navigation.menu_title_bmi'),
+      meta: [{
+        vmid: 'description',
+        name: 'description',
+        content: this.$t('meta.meta_keywords_bmi')
+      },
+      {
+        vmid: 'keywords',
+        name: 'keywords',
+        content: this.$t('meta.meta_keywords_bmi')
+      }]
+    }
+  },
   data () {
     return {
       chkBoxKg: false,

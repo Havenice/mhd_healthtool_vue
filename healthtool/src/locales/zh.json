@@ -1,11 +1,22 @@
 {
+    "meta":{
+        "meta_keywords_home": "健康工具, 牛皮屑, PASI 计算器, BMI 计算器, 肠胃年龄检查, morinaga",
+        "meta_keywords_about": "健康工具, 牛皮屑, 关于 MHD, Kim Lin Keong, Havenice, MyHealthDriver, MHD",
+        "meta_keywords_pasi": "健康工具, 牛皮屑, PASI, 分数, 计算器, 红斑,硬结, 脱屑, MyHealthDriver, MHD",
+        "meta_keywords_bmi": "健康工具, 肥胖, BMI, 分数, 计算器, MyHealthDriver, MHD",
+        "meta_keywords_intestinal": "健康工具, 肠胃年龄, colon, morinaga ,MyHealthDriver, MHD"
+    },
     "home":{
         "bmi_title": "BMI 身体重量指数计算机",
         "intestinal_title": "肠道环境年龄检查",
         "pasi_title": "PASI 牛皮癣积严重度计算机",
         "bmi_desc": "确定人的整体健康风险指标",
         "intestinal_desc": "确定结肠的老化状态",
-        "pasi_desc": "衡量牛皮癣（牛皮癣面积和严重性指数）的严重程度分析"
+        "pasi_desc": "衡量牛皮癣（牛皮癣面积和严重性指数）的严重程度分析",
+        "label_button_goto": "从这里出发",
+        "label_button_external": "外部打开链接",
+        "estore_title": "MHD Estore 网上商店",
+        "estore_desc": "访问MHD Estore中可用的更多EnerFlex产品"
     },
     "navigation":{
         "menu_title_home": "首页",
@@ -46,14 +57,18 @@
     },
     "intestinal":{
         "intestinal_title": "肠胃年龄检查",
-        "intestinal_desc": "好消息！ 现在，您可以使用Yoshimi Benno博士的方法在一分钟内检查肠道环境的年龄，该方法是一种快速且无创的方法，可用来检查结肠的衰老状态。 例如，您可能在25岁，但是在您的等效年龄50岁，实际年龄或更小时评估结肠状态。 Yoshimi Benno博士从事肠道细菌学和细菌分类学研究已有40多年的历史，并且是这些领域的领先研究人员。"
+        "intestinal_desc": "好消息！ 现在，您可以使用Yoshimi Benno博士的方法在一分钟内检查肠道环境的年龄，该方法是一种快速且无创的方法，可用来检查结肠的衰老状态。 例如，您可能在25岁，但是在您的等效年龄50岁，实际年龄或更小时评估结肠状态。 Yoshimi Benno博士从事肠道细菌学和细菌分类学研究已有40多年的历史，并且是这些领域的领先研究人员。",
+        "label_not_supported_title":"抱歉，智能手机/非PC版本尚不支持",
+        "label_not_supported_desc": "由于嵌入式站点不适合手机设备使用，因此我们可以通过具有适当像素的PC进行访问。 谢谢你的理解。",
+        "label_source":"来源"
     },
     "products":{
         "label_recommended": "推荐产品",
         "label_consumption": "用法",
         "label_buynow": "立即购买",
         "sachet_unit": "包",
-        "daily_unit": "每天"
+        "daily_unit": "每天",
+        "label_direction_of_use_extra": "请在下面的链接中进一步参考"
     },
     "pasi":{
         "label_part": "部分",
@@ -78,5 +93,12 @@
         "pasi_factors_table_reference": "红斑,硬结和脱屑参考图",
         "pasi_score_table_reference": "PASI评分参考表",
         "pasi_label_factors": "因素 / 分数"
+    },
+    "footer":{
+        "label_copyright": "  版权所有 ©",
+        "label_rights_reserved": "保留所有权利",
+        "label_is_registered_trademark":"是 MyHealthDriver.Com 有限公司的注册商标。",
+        "label_developed_by": "此网站平台是由 Havenice Sdn. Bhd 有限公司开发。",
+        "label_disclaimer": "免责声明：除非另有说明，否则本网站的全部内容基于作者的观点。 本网站上的信息无意取代与合格的医疗保健专业人员的一对一关系，也无意作为医疗建议。"
     }
 }
