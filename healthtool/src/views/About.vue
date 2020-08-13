@@ -4,7 +4,6 @@
     <p class="mb-4">
       MHD Healthtool is a <b>mobile-and-user friendly platform site</b> that provides multiple calculation tools for medical/clinical trial uses, paired accordingly with our
        recommended EnerFlex® products. Each tool is carefully referred and improvised from standards/classifications set by journals and medical sites.
-       by medical sites.
     </p>
     <h2 class="title is-size-4">About MyHealthDriver.Com Sdn. Bhd</h2>
     <p class="mb-5">

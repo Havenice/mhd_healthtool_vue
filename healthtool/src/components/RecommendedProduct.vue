@@ -1,10 +1,10 @@
 <template>
-  <div id="recommendedProduct" class="box" :class="{'sperfect-background': this.id == 50, 'original-background': this.id == 54, 'probiotic-background': this.id == 51,
+  <div id="recommendedProduct" class="box" :class="{'sperfect-background': this.id == 54, 'original-background': this.id == 50, 'probiotic-background': this.id == 51,
   'psoriasis-pack-background': this.id == 64}">
     <div class="columns is-vcentered is-centered">
       <div class="column is-narrow">
         <img class="img-thumbnail" :src="`${publicPath}img/products/enerflex_probiotic.png`" alt="enerflex Probiotic" v-if="this.id == 51">
-        <img class="img-thumbnail" :src="`${publicPath}img/products/enerflex_sperfect.png`" alt="enerflex S-Perfect" v-else-if="this.id == 50">
+        <img class="img-thumbnail" :src="`${publicPath}img/products/enerflex_sperfect.png`" alt="enerflex S-Perfect" v-else-if="this.id == 54">
         <img class="img-thumbnail" :src="`${publicPath}img/products/psoriasis_pack.png`" alt="enerflex AFA, Complexion, Probiotic PSORIASIS Pack" v-else-if="this.id == 64">
       </div>
       <div class="column has-text-white">
@@ -52,7 +52,6 @@ export default {
   data () {
     return {
       publicPath: process.env.BASE_URL,
-
       product_id: this.id,
       product_name: this.name,
       product_url: 'https://myhealthdriver.com/estore/index.php?route=product/product&product_id=' + this.id

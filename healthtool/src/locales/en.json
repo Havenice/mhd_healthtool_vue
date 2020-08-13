@@ -4,7 +4,8 @@
         "meta_keywords_about": "healthtool, psoriasis, about MHD, Kim Lin Keong, Havenice, MyHealthDriver, MHD",
         "meta_keywords_pasi": "healthtool, psoriasis, PASI, score, calculator, redness, scaling, thickness, Erythema, Induration, Desquamation, MyHealthDriver, MHD",
         "meta_keywords_bmi": "healthtool, obesity, BMI, score, calculator,MyHealthDriver, MHD",
-        "meta_keywords_intestinal": "healthtool, intestinal aging, colon, morinaga ,MyHealthDriver, MHD"
+        "meta_keywords_intestinal": "healthtool, intestinal aging, colon, morinaga ,MyHealthDriver, MHD",
+        "meta_description": "Welcome to MHD HealthTool, a mobile-and-user friendly platform site that provides multiple calculation tools for medical/clinical trial uses, paired accordingly with our recommended EnerFlex® products. Each tool is carefully referred and improvised from standards/classifications set by journals and medical sites."
     },
     "home":{
         "bmi_title": "BMI Calculator",
@@ -16,7 +17,7 @@
         "label_button_goto": "Proceed",
         "label_button_external": "Open External Link",
         "estore_title": "MHD Estore",
-        "estore_desc": "Visit more of our EnerFlex products available in MHD Estore"
+        "estore_desc": "Visit more of our EnerFlex products in MHD Estore"
     },
     "navigation":{
         "menu_title_home": "Home",

@@ -73,7 +73,7 @@
         </div>
       </section>
     </div>
-        <recommended-product id="50" name="S-Perfect">
+        <recommended-product id="54" name="S-Perfect">
         </recommended-product>
   </div>
 </template>

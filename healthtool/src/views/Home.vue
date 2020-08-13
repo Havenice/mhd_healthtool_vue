@@ -87,3 +87,49 @@
   margin: 0 auto;
 }
 </style>
+<script>
+export default {
+  metaInfo () {
+    return {
+      title: this.$t('navigation.menu_title_home'),
+      meta: [
+        {
+          vmid: 'og:title',
+          name: 'og:title',
+          content: this.$t('meta.menu_title_home')
+        },
+        {
+          vmid: 'description',
+          name: 'description',
+          content: this.$t('meta.meta_keywords_home')
+        },
+        {
+          vmid: 'og:description',
+          name: 'og:description',
+          content: this.$t('meta.meta_keywords_home')
+        },
+        {
+          vmid: 'keywords',
+          name: 'keywords',
+          content: this.$t('meta.meta_keywords_home')
+        },
+        {
+          vmid: 'og:image',
+          name: 'og:image',
+          content: 'https://myhealthdriver.com/healthtool/img/ht_cover.jpg'
+        },
+        {
+          vmid: 'og:type',
+          name: 'og:type',
+          content: 'website'
+        },
+        {
+          vmid: 'og:url',
+          name: 'og:url',
+          content: 'https://myhealthdriver.com/healthtool'
+        }
+      ]
+    }
+  }
+}
+</script>
