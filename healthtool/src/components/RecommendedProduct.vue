@@ -3,9 +3,9 @@
   'psoriasis-pack-background': this.id == 64}">
     <div class="columns is-vcentered is-centered">
       <div class="column is-narrow">
-        <img class="img-thumbnail" src="/img/products/enerflex_probiotic.png" alt="enerflex Probiotic" v-if="this.id == 51">
-        <img class="img-thumbnail" src="/img/products/enerflex_sperfect.png" alt="enerflex S-Perfect" v-else-if="this.id == 50">
-        <img class="img-thumbnail" src="/img/products/psoriasis_pack.png" alt="enerflex AFA, Complexion, Probiotic PSORIASIS Pack" v-else-if="this.id == 64">
+        <img class="img-thumbnail" :src="`${publicPath}img/products/enerflex_probiotic.png`" alt="enerflex Probiotic" v-if="this.id == 51">
+        <img class="img-thumbnail" :src="`${publicPath}img/products/enerflex_sperfect.png`" alt="enerflex S-Perfect" v-else-if="this.id == 50">
+        <img class="img-thumbnail" :src="`${publicPath}img/products/psoriasis_pack.png`" alt="enerflex AFA, Complexion, Probiotic PSORIASIS Pack" v-else-if="this.id == 64">
       </div>
       <div class="column has-text-white">
         <h1 class="has-text-white is-size-6">{{$t('products.label_recommended')}}</h1>
@@ -51,6 +51,8 @@ export default {
   props: ['name', 'id', 'hideConsumption'],
   data () {
     return {
+      publicPath: process.env.BASE_URL,
+
       product_id: this.id,
       product_name: this.name,
       product_url: 'https://myhealthdriver.com/estore/index.php?route=product/product&product_id=' + this.id
