@@ -16,11 +16,47 @@ import { mapState } from 'vuex'
 
 export default {
   components: { HealthtoolNavbar, HealthtoolFooter },
-  metaInfo: {
-    // if no subcomponents specify a metaInfo.title, this title will be used
-    title: 'Welcome 欢迎',
-    // all titles will be injected into this template
-    titleTemplate: '%s | MHD HealthTool'
+  metaInfo () {
+    return {
+      title: this.$t('navigation.menu_title_home') + ' | MHD Healthtool',
+      meta: [
+        {
+          vmid: 'og:title',
+          name: 'og:title',
+          content: this.$t('navigation.menu_title_home')
+        },
+        {
+          vmid: 'description',
+          name: 'description',
+          content: this.$t('meta.meta_description')
+        },
+        {
+          vmid: 'og:description',
+          name: 'og:description',
+          content: this.$t('meta.meta_description')
+        },
+        {
+          vmid: 'keywords',
+          name: 'keywords',
+          content: this.$t('meta.meta_keywords_home')
+        },
+        {
+          vmid: 'og:image',
+          name: 'og:image',
+          content: 'https://myhealthdriver.com/healthtool/img/ht_cover.jpg'
+        },
+        {
+          vmid: 'og:type',
+          name: 'og:type',
+          content: 'website'
+        },
+        {
+          vmid: 'og:url',
+          name: 'og:url',
+          content: 'https://myhealthdriver.com/healthtool'
+        }
+      ]
+    }
   },
   computed: mapState(['locale']),
   watch: {
